@@ -1,0 +1,39 @@
+.modal-header{
+    border-bottom: 0px;
+}
+.modal-title{
+    font-size: 16px;
+    font-weight: 500; 
+}
+.btn-2{
+  background: #029386;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 0px;
+  font-weight: 600;
+  margin-right: 2%;
+}
+.modal-footer {
+  border-top: 0px;
+}
+.example-events {
+  height: 200px;
+  border: 1px solid #555;
+  overflow: auto;
+}
+
+.options{
+  .date{
+    border: 1px solid black;
+    margin: 4% 0%;
+    padding: 2% 4%;
+  }
+  select{
+    width: 100%;
+    padding: 1% 2%;
+  }
+  .time-text{
+    width: 100%;
+  }
+
+}

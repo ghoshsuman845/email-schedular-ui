@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.009" height="16.165" viewBox="0 0 19.009 16.165">
+  <g id="Group_2239" data-name="Group 2239" transform="translate(2417.718 264.591)">
+    <g id="Group_2158" data-name="Group 2158" transform="translate(-2417.218 -264.091)">
+      <path id="Path_2372" data-name="Path 2372" d="M541.684,284H529.446a.417.417,0,0,0-.446.381v1.742a.451.451,0,0,0,.891,0v-1.362h5.228V298.4h-1.1a.385.385,0,1,0,0,.761h3.084a.385.385,0,1,0,0-.761h-1.1V284.761h5.228v1.362a.451.451,0,0,0,.891,0v-1.742a.417.417,0,0,0-.446-.381Zm0,0" transform="translate(-529 -284)" fill="#2a2a2a" stroke="#2a2a2a" stroke-width="1"/>
+    </g>
+    <path id="chevron-down" d="M6,9l2.543,2.172L11.086,9" transform="translate(-2410.5 -265.753)" fill="none" stroke="#2a2a2a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

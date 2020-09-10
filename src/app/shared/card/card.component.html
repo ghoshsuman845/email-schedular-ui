@@ -1,0 +1,12 @@
+<div class="card" [ngClass]="{'card-color':selected}" (click)="selectedCard()">
+    <div class="card-body">
+        <p class="date time"><i class="fa fa-clock-o" aria-hidden="true"></i>
+            {{email.date | date: 'dd MMM yyyy'}}</p>
+        <p class="date">{{email.date | date: 'h:mm a'}} </p>
+
+        <h5 class="card-title">To</h5>
+        <h6 class="card-subtitle mb-2 ">Subject</h6>
+        <p class="card-text text-muted">{{email.subject}}.</p>
+
+    </div>
+</div>

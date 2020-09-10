@@ -1,0 +1,26 @@
+<div class="main ">
+  <div class="layer">
+    <div class=" ">
+      <app-sidbar>
+      </app-sidbar>
+      <div class="row margen-left-6">
+        <div class="col-lg-3 col-md-4 col-sm-12 main-container">
+          <div class="mail-container">
+            <h1>Scheduled</h1>
+            <div *ngFor="let email of emails; let i = index ">
+
+              <app-card [selected]="selectedEmailIndex ==i" [email]="email"
+                (emailDetailEmitter)="selectedEmailDetails($event , i)"></app-card>
+            </div>
+
+
+          </div>
+        </div>
+        <div class=" col-lg-9 col-md-8 col-sm-12 mail-sender">
+          <h1>Email</h1>
+          <app-email [email]="selectedEmail" (sentEmail)="updatedEmailDetails($event)"></app-email>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

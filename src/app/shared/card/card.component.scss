@@ -1,0 +1,38 @@
+.card-color{
+    background-color: #c9d6d5;
+    
+}
+.card{
+    border-radius: 0px;
+    margin: 3.25% 0%;
+    .card-body{
+        padding: 1% 6%;
+
+        .card-title{
+            font-size: 18px;
+            margin-top: -14%;
+        }
+        .card-subtitle , .card-text{
+            font-size: 14px;
+            
+        }
+        
+        .time{
+            margin-top: 3%;
+        }
+        .date{
+            display: flex;
+            justify-content: flex-end;
+            font-size:12px;
+            line-height: 4px;
+            
+            .fa{
+                margin-top: -2%;
+                padding-right: 1%;
+            }
+        }
+    }
+   
+}
+
+

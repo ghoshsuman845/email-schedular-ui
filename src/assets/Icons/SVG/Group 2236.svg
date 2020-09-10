@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28.942" height="16.513" viewBox="0 0 28.942 16.513">
+  <g id="Group_2236" data-name="Group 2236" transform="translate(2385.649 263.939)">
+    <g id="Group_2171" data-name="Group 2171" transform="translate(-2385.149 -263.439)">
+      <path id="Path_2416" data-name="Path 2416" d="M489.914,310.651H488.9V296.862h4.974V298.2a.484.484,0,0,0,.963,0v-1.772a.458.458,0,0,0-.481-.431H482.481a.458.458,0,0,0-.481.431V298.2a.484.484,0,0,0,.963,0v-1.341h4.974v13.789h-1.015a.434.434,0,1,0,0,.862h2.992a.434.434,0,1,0,0-.862Zm0,0" transform="translate(-482 -296)" fill="#2a2a2a" stroke="#2a2a2a" stroke-width="1"/>
+      <path id="Path_2417" data-name="Path 2417" d="M630.6,307.835a.458.458,0,0,0-.481.431,2.68,2.68,0,0,1-5.327,0v-5.745h2.6a.434.434,0,1,0,0-.862h-2.6v-5.228a.484.484,0,0,0-.963,0v5.228h-2.6a.434.434,0,1,0,0,.862h2.6v5.745a3.648,3.648,0,0,0,7.252,0,.458.458,0,0,0-.481-.431Zm0,0" transform="translate(-608.877 -296)" fill="#2a2a2a" stroke="#2a2a2a" stroke-width="1"/>
+    </g>
+    <path id="chevron-down" d="M6,9l2.543,2.277L11.086,9" transform="translate(-2368.5 -265.33)" fill="none" stroke="#2a2a2a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

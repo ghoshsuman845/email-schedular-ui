@@ -1,0 +1,33 @@
+<div class="email-div">
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-default">To:</span>
+    </div>
+    <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-default">Subject:</span>
+    </div>
+    <input type="text" [(ngModel)]="email.subject"   class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+  </div>
+  
+  
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <span class="input-group-text text-area">Email Body: </span>
+    </div>
+    <textarea class="form-control" aria-label="With textarea"  [(ngModel)]="email.desc" rows="5" id="comment" style="height: 314px;"></textarea>
+  </div>
+   <p class="schedule-text">Scheduled at <b>{{email ? email.date : " "}}.</b></p>
+  <div class="btns">
+    <button type="button" class="btn btn-1" type="button" data-toggle="modal" data-target="#exampleModal"
+     >Update Schedule</button>
+    <button type="button" class="btn btn-2"  (click)="send()">Cancel Send</button>
+  </div>
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <app-datepicker [emailDetails]="email" (selectedDate)="dateChange($event)"></app-datepicker>
+  </div>
+
+</div>

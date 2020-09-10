@@ -1,0 +1,67 @@
+.email-div {
+    margin-left: 3%;
+
+    .form-group label {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .form-control {
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #fff;
+        border-radius: 0px;
+    }
+    textarea{
+        height: 50vh;
+    }
+    .btns {
+        .btn-1 {
+            background: #4fcdc2;
+            font-size: 14px;
+            color: #fff;
+            border-radius: 0px;
+            font-weight: 600;
+            margin-right: 2%;
+            &:hover {
+                background: #029386;
+            }
+        }
+        .btn-2 {
+            background: #e6fefe;
+            border-radius: 0px;
+            font-weight: 600;
+            margin-right: 2%;
+            font-size: 14px;
+            &:hover {
+                background: #04b7a8;
+            }
+        }
+    }
+    .input-group-text {
+        display: -ms-flexbox;
+
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.5;
+        color: #495057;
+        text-align: center;
+        white-space: nowrap;
+        background-color: #fff;
+        border: 1px solid #fff;
+        border-radius: 0px;
+    }
+}
+.form-control {
+    
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #fff;
+    border-radius: 0px;
+}
+.input-group .text-area{
+    align-items: baseline;
+}
+
+.btns{
+    margin-top: 2%;
+}
